@@ -1,5 +1,5 @@
 <?php
-$link = mysql_connect('mysqldb.c2irvpd2ukeg.us-east-1.rds.amazonaws.com', 'lampuser', 'lamppassword');
+$link = mysql_connect('enter_the_name', 'lampuser', 'lamppassword');
 if (!$link)
 {
 	die('Could not connect: ' . mysql_error());
